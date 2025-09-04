@@ -42,5 +42,7 @@ function embaralha(lista) {
 }
 
 function reiniciar() {
-
+    todosAmigos = [];
+    document.getElementById('lista-amigos').innerHTML = '';
+    document.getElementById('lista-sorteio').innerHTML = '';
 }
