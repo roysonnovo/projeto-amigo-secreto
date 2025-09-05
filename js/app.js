@@ -7,6 +7,11 @@ function adicionar() {
         return;
     }
 
+    if (todosAmigos.includes(amigo.value)) {
+        alert('Nome já adicionado!');
+        return;
+    }
+
     let lista = document.getElementById('lista-amigos');
     todosAmigos.push(amigo.value);
     
